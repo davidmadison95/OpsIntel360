@@ -95,7 +95,7 @@ opsintel360/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/davidmadison95/opsintel360.git
+git clone https://github.com/davidmadison95/OpsIntel360
 cd opsintel360
 ```
 
