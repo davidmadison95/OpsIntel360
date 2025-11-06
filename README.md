@@ -339,9 +339,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🙏 Acknowledgments
 
-- Facebook Prophet team for the forecasting library
-- Streamlit team for the amazing framework
-- The open-source community for excellent tools and libraries
+- Built with Python, Streamlit, Prophet, and other open-source technologies.
 
 ## 📧 Contact
 
