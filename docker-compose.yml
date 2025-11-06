@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  opsintel360:
+    build: .
+    container_name: opsintel360_dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./database:/app/database
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    networks:
+      - opsintel_network
+
+networks:
+  opsintel_network:
+    driver: bridge
